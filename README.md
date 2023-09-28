@@ -7,3 +7,7 @@ Ehsanfar, S., Matthé, M., Zhang, D., & Fettweis, G. (2017, March). Interference
 Important:
 
 Some functions in the source code have been removed in later releases of MATLAB. You need MATLAB 2018a or older (between 2015a and 2018a) to be able to run the code.
+
+ main_SER.m: Includes both the transmitter and the receiver, estimates the channel and calculates the symbol error rate. 
+ 
+ main_OOB.m and main_PAPR.m only generate the transmit signal, i.e. no channel estimation is included in them.
